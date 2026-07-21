@@ -1,0 +1,5 @@
+parameters:
+  user_full_name: Samin Yasir9
+  links:
+    - https://github.com/qdrant/qdrant.git
+    - https://github.com/yasirsamin821/FlaskXD.git
