@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+langchain-core
+langchain-community
+langchain-chroma
+langchain-openai
+rank_bm25
+loguru
+pymongo
+zenml
+zenml[server]
