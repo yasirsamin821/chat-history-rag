@@ -4,7 +4,7 @@ set -euo pipefail
 # --- fill these in -----------------------------------------------------
 PROJECT_DIR="/home/samin96/code_folders/rag_new2"
 VENV_DIR="/home/samin96/code_folders/rag_new2/venv"
-FRONTEND_REPO_DIR="/home/samin96/cloudfare_deployment"
+FRONTEND_REPO_DIR="/home/samin96/code_folders/rag_new2/deployment/front-end"
 API_PORT=8000
 # -------------------------------------------------------------------------
 
@@ -68,5 +68,5 @@ git push --quiet
 
 echo "==> Done."
 echo "    Backend:  $TUNNEL_URL"
-echo "    Frontend: https://yasirsamin821.github.io/cloudfare_deployment/rag_chat_ui.html"
+echo "    Frontend: https://yasirsamin821.github.io/chat-history-rag/deployment/front-end/rag_chat_ui.html"
 echo "    (your friend's tab picks up the new URL within 60s, or on refresh)"
